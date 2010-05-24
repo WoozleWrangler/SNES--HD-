@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* SNES4iPadAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 702}}";
+			sepNavSelRange = "{372, 0}";
+			sepNavVisRange = "{306, 1390}";
+		};
+	};
+	1D3623250D0F684500981E51 /* SNES4iPadAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 1326}}";
+			sepNavSelRange = "{2530, 0}";
+			sepNavVisRange = "{2122, 841}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* SNES4iPad */ = {
+		activeExec = 0;
+		executables = (
+			CEA57BFC1198477B004DCD60 /* SNES4iPad */,
+		);
+	};
+	28042007108E984D000629CD /* RomSelectionViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 456}}";
+			sepNavSelRange = "{213, 0}";
+			sepNavVisRange = "{0, 599}";
+		};
+	};
+	28042008108E984D000629CD /* RomSelectionViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1251, 4329}}";
+			sepNavSelRange = "{156, 32}";
+			sepNavVisRange = "{0, 914}";
+		};
+	};
+	28042009108E984D000629CD /* RomDetailViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 871}}";
+			sepNavSelRange = "{2082, 0}";
+			sepNavVisRange = "{802, 1287}";
+		};
+	};
+	2804200A108E984D000629CD /* RomDetailViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1510, 3822}}";
+			sepNavSelRange = "{7623, 0}";
+			sepNavVisRange = "{5351, 1274}";
+		};
+	};
+	28A0AAE50D9B0CCF005BE974 /* SNES4iPad_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 488}}";
+			sepNavSelRange = "{349, 0}";
+			sepNavVisRange = "{0, 357}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CEA57BFC1198477B004DCD60 /* SNES4iPad */;
+		activeSDKPreference = iphoneos3.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* SNES4iPad */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* SNES4iPad */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = CEA57C091198478C004DCD60 /* Code sense */;
+		executables = (
+			CEA57BFC1198477B004DCD60 /* SNES4iPad */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					739,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 296352179;
+			PBXWorkspaceStateSaveDate = 296352179;
+		};
+		perUserProjectItems = {
+			CE1819BE11A1E86200B7A5B0 = CE1819BE11A1E86200B7A5B0 /* PBXTextBookmark */;
+			CE1819C011A1E86200B7A5B0 = CE1819C011A1E86200B7A5B0 /* PBXTextBookmark */;
+			CE1819C111A1E86200B7A5B0 = CE1819C111A1E86200B7A5B0 /* PBXTextBookmark */;
+			CE235A1811A23FFA00593C86 = CE235A1811A23FFA00593C86 /* PBXTextBookmark */;
+			CE235A1911A23FFA00593C86 = CE235A1911A23FFA00593C86 /* PBXTextBookmark */;
+			CE235A1A11A23FFA00593C86 = CE235A1A11A23FFA00593C86 /* PBXTextBookmark */;
+			CE235A1B11A23FFA00593C86 = CE235A1B11A23FFA00593C86 /* PBXTextBookmark */;
+			CE235A1C11A23FFA00593C86 = CE235A1C11A23FFA00593C86 /* PBXTextBookmark */;
+			CE235A1D11A23FFA00593C86 = CE235A1D11A23FFA00593C86 /* PBXTextBookmark */;
+			CE235A1E11A23FFA00593C86 = CE235A1E11A23FFA00593C86 /* PBXTextBookmark */;
+			CE43A4ED119DFFD90007E399 = CE43A4ED119DFFD90007E399 /* PBXBookmark */;
+			CE43A4EF119DFFD90007E399 = CE43A4EF119DFFD90007E399 /* PBXTextBookmark */;
+			CE43A501119DFFFD0007E399 = CE43A501119DFFFD0007E399 /* PBXTextBookmark */;
+			CE43A553119E17760007E399 = CE43A553119E17760007E399 /* PBXTextBookmark */;
+			CE43A568119E35470007E399 = CE43A568119E35470007E399 /* PlistBookmark */;
+			CEA57E3D1198D831004DCD60 = CEA57E3D1198D831004DCD60 /* PBXTextBookmark */;
+			CEDE3D11119A2C00002889C8 = CEDE3D11119A2C00002889C8 /* PBXTextBookmark */;
+			CEE856CE11A9F9C300784F8D /* PBXTextBookmark */ = CEE856CE11A9F9C300784F8D /* PBXTextBookmark */;
+			CEEA77D2119F426600440258 = CEEA77D2119F426600440258 /* PBXTextBookmark */;
+			CEEA77EF119F42DA00440258 = CEEA77EF119F42DA00440258 /* PBXTextBookmark */;
+			CEEA77F0119F42DA00440258 = CEEA77F0119F42DA00440258 /* PBXTextBookmark */;
+			CEEA7801119F43ED00440258 = CEEA7801119F43ED00440258 /* PBXTextBookmark */;
+			CEEA7824119F47EF00440258 = CEEA7824119F47EF00440258 /* PBXTextBookmark */;
+			CEEA7832119F4F0D00440258 = CEEA7832119F4F0D00440258 /* PBXTextBookmark */;
+			CEEA7833119F4F0D00440258 = CEEA7833119F4F0D00440258 /* PBXTextBookmark */;
+			CEEA7847119F56AF00440258 = CEEA7847119F56AF00440258 /* PBXTextBookmark */;
+		};
+		sourceControlManager = CEA57C081198478C004DCD60 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	CE1819BE11A1E86200B7A5B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEEA77CD119F3F4400440258 /* ScreenView.m */;
+		name = "ScreenView.m: 61";
+		rLen = 0;
+		rLoc = 1618;
+		rType = 0;
+		vrLen = 1203;
+		vrLoc = 839;
+	};
+	CE1819C011A1E86200B7A5B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2804200A108E984D000629CD /* RomDetailViewController.m */;
+		name = "RomDetailViewController.m: 228";
+		rLen = 0;
+		rLoc = 7623;
+		rType = 0;
+		vrLen = 1274;
+		vrLoc = 5351;
+	};
+	CE1819C111A1E86200B7A5B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEA57D621198B621004DCD60 /* SaveStateSelectionViewController.h */;
+		name = "SaveStateSelectionViewController.h: 32";
+		rLen = 0;
+		rLoc = 909;
+		rType = 0;
+		vrLen = 915;
+		vrLoc = 0;
+	};
+	CE235A1811A23FFA00593C86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEA57F081198E5E8004DCD60 /* ControlPadManager.m */;
+		name = "ControlPadManager.m: 128";
+		rLen = 0;
+		rLoc = 3183;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 2985;
+	};
+	CE235A1911A23FFA00593C86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE43A4A4119DEA3C0007E399 /* EmulationViewController.m */;
+		name = "EmulationViewController.m: 65";
+		rLen = 0;
+		rLoc = 1749;
+		rType = 0;
+		vrLen = 994;
+		vrLoc = 674;
+	};
+	CE235A1A11A23FFA00593C86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEA57F0F1198ED61004DCD60 /* ControlPadConnectViewController.m */;
+		name = "ControlPadConnectViewController.m: 30";
+		rLen = 151;
+		rLoc = 1013;
+		rType = 0;
+		vrLen = 1333;
+		vrLoc = 273;
+	};
+	CE235A1B11A23FFA00593C86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEA57F071198E5E8004DCD60 /* ControlPadManager.h */;
+		name = "ControlPadManager.h: 31";
+		rLen = 0;
+		rLoc = 846;
+		rType = 0;
+		vrLen = 948;
+		vrLoc = 0;
+	};
+	CE235A1C11A23FFA00593C86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEA57F0E1198ED61004DCD60 /* ControlPadConnectViewController.h */;
+		name = "ControlPadConnectViewController.h: 38";
+		rLen = 0;
+		rLoc = 1054;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 58;
+	};
+	CE235A1D11A23FFA00593C86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEA57D631198B621004DCD60 /* SaveStateSelectionViewController.m */;
+		name = "SaveStateSelectionViewController.m: 293";
+		rLen = 0;
+		rLoc = 7946;
+		rType = 0;
+		vrLen = 1086;
+		vrLoc = 7156;
+	};
+	CE235A1E11A23FFA00593C86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEA57D631198B621004DCD60 /* SaveStateSelectionViewController.m */;
+		name = "SaveStateSelectionViewController.m: 293";
+		rLen = 0;
+		rLoc = 7946;
+		rType = 0;
+		vrLen = 1086;
+		vrLoc = 7156;
+	};
+	CE43A4A3119DEA3C0007E399 /* EmulationViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 450}}";
+			sepNavSelRange = "{212, 0}";
+			sepNavVisRange = "{0, 488}";
+		};
+	};
+	CE43A4A4119DEA3C0007E399 /* EmulationViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1160, 2301}}";
+			sepNavSelRange = "{1749, 0}";
+			sepNavVisRange = "{674, 994}";
+		};
+	};
+	CE43A4ED119DFFD90007E399 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CE43A4CE119DFEF70007E399 /* console.png */;
+	};
+	CE43A4EF119DFFD90007E399 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28042008108E984D000629CD /* RomSelectionViewController.m */;
+		name = "RomSelectionViewController.m: 9";
+		rLen = 32;
+		rLoc = 156;
+		rType = 0;
+		vrLen = 914;
+		vrLoc = 0;
+	};
+	CE43A501119DFFFD0007E399 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28042007108E984D000629CD /* RomSelectionViewController.h */;
+		name = "RomSelectionViewController.h: 12";
+		rLen = 0;
+		rLoc = 213;
+		rType = 0;
+		vrLen = 599;
+		vrLoc = 0;
+	};
+	CE43A553119E17760007E399 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28042009108E984D000629CD /* RomDetailViewController.h */;
+		name = "RomDetailViewController.h: 64";
+		rLen = 0;
+		rLoc = 2082;
+		rType = 0;
+		vrLen = 1287;
+		vrLoc = 802;
+	};
+	CE43A568119E35470007E399 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = CE43A516119E087E0007E399 /* SNES4iPad-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/yusefnapora/Documents/Code/SNES4iPad/SNES4iPad-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	CEA57BFC1198477B004DCD60 /* SNES4iPad */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SNES4iPad;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	CEA57C081198478C004DCD60 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CEA57C091198478C004DCD60 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CEA57D621198B621004DCD60 /* SaveStateSelectionViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 442}}";
+			sepNavSelRange = "{909, 0}";
+			sepNavVisRange = "{0, 915}";
+			sepNavWindowFrame = "{{38, 194}, {750, 558}}";
+		};
+	};
+	CEA57D631198B621004DCD60 /* SaveStateSelectionViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 4420}}";
+			sepNavSelRange = "{7946, 0}";
+			sepNavVisRange = "{6712, 901}";
+		};
+	};
+	CEA57E281198D3BC004DCD60 /* SettingsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 455}}";
+			sepNavSelRange = "{876, 0}";
+			sepNavVisRange = "{0, 879}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	CEA57E291198D3BC004DCD60 /* SettingsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 1794}}";
+			sepNavSelRange = "{755, 0}";
+			sepNavVisRange = "{0, 934}";
+		};
+	};
+	CEA57E3D1198D831004DCD60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A0AAE50D9B0CCF005BE974 /* SNES4iPad_Prefix.pch */;
+		name = "SNES4iPad_Prefix.pch: 14";
+		rLen = 0;
+		rLoc = 349;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 0;
+	};
+	CEA57F071198E5E8004DCD60 /* ControlPadManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 585}}";
+			sepNavSelRange = "{846, 0}";
+			sepNavVisRange = "{0, 948}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	CEA57F081198E5E8004DCD60 /* ControlPadManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 2262}}";
+			sepNavSelRange = "{3183, 0}";
+			sepNavVisRange = "{2985, 1307}";
+		};
+	};
+	CEA57F0E1198ED61004DCD60 /* ControlPadConnectViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 598}}";
+			sepNavSelRange = "{1054, 0}";
+			sepNavVisRange = "{58, 997}";
+		};
+	};
+	CEA57F0F1198ED61004DCD60 /* ControlPadConnectViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 1690}}";
+			sepNavSelRange = "{1013, 151}";
+			sepNavVisRange = "{273, 1333}";
+		};
+	};
+	CEDE3D11119A2C00002889C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEDE3D12119A2C00002889C8 /* NSString.h */;
+		name = "NSString.h: 305";
+		rLen = 38;
+		rLoc = 18084;
+		rType = 0;
+		vrLen = 1550;
+		vrLoc = 17247;
+	};
+	CEDE3D12119A2C00002889C8 /* NSString.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSString.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h;
+		sourceTree = "<absolute>";
+	};
+	CEE856CE11A9F9C300784F8D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEA57D631198B621004DCD60 /* SaveStateSelectionViewController.m */;
+		name = "SaveStateSelectionViewController.m: 293";
+		rLen = 0;
+		rLoc = 7946;
+		rType = 0;
+		vrLen = 901;
+		vrLoc = 6712;
+	};
+	CEEA77CC119F3F4400440258 /* ScreenView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 419}}";
+			sepNavSelRange = "{227, 0}";
+			sepNavVisRange = "{0, 233}";
+		};
+	};
+	CEEA77CD119F3F4400440258 /* ScreenView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 1105}}";
+			sepNavSelRange = "{1618, 0}";
+			sepNavVisRange = "{839, 1203}";
+		};
+	};
+	CEEA77CF119F3F6100440258 /* ScreenLayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 444}}";
+			sepNavSelRange = "{302, 0}";
+			sepNavVisRange = "{0, 311}";
+		};
+	};
+	CEEA77D0119F3F6100440258 /* ScreenLayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 1001}}";
+			sepNavSelRange = "{1922, 0}";
+			sepNavVisRange = "{1223, 958}";
+		};
+	};
+	CEEA77D2119F426600440258 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE43A4A3119DEA3C0007E399 /* EmulationViewController.h */;
+		name = "EmulationViewController.h: 10";
+		rLen = 0;
+		rLoc = 212;
+		rType = 0;
+		vrLen = 488;
+		vrLoc = 0;
+	};
+	CEEA77EF119F42DA00440258 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEA57E281198D3BC004DCD60 /* SettingsViewController.h */;
+		name = "SettingsViewController.h: 35";
+		rLen = 0;
+		rLoc = 876;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 0;
+	};
+	CEEA77F0119F42DA00440258 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEA57E291198D3BC004DCD60 /* SettingsViewController.m */;
+		name = "SettingsViewController.m: 27";
+		rLen = 0;
+		rLoc = 755;
+		rType = 0;
+		vrLen = 934;
+		vrLoc = 0;
+	};
+	CEEA7801119F43ED00440258 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEEA77CF119F3F6100440258 /* ScreenLayer.h */;
+		name = "ScreenLayer.h: 14";
+		rLen = 0;
+		rLoc = 302;
+		rType = 0;
+		vrLen = 311;
+		vrLoc = 0;
+	};
+	CEEA7824119F47EF00440258 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEEA77D0119F3F6100440258 /* ScreenLayer.m */;
+		name = "ScreenLayer.m: 57";
+		rLen = 0;
+		rLoc = 1922;
+		rType = 0;
+		vrLen = 958;
+		vrLoc = 1223;
+	};
+	CEEA7832119F4F0D00440258 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* SNES4iPadAppDelegate.h */;
+		name = "SNES4iPadAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 372;
+		rType = 0;
+		vrLen = 1390;
+		vrLoc = 306;
+	};
+	CEEA7833119F4F0D00440258 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEEA77CC119F3F4400440258 /* ScreenView.h */;
+		name = "ScreenView.h: 16";
+		rLen = 0;
+		rLoc = 227;
+		rType = 0;
+		vrLen = 233;
+		vrLoc = 0;
+	};
+	CEEA7847119F56AF00440258 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SNES4iPadAppDelegate.m */;
+		name = "SNES4iPadAppDelegate.m: 79";
+		rLen = 0;
+		rLoc = 2530;
+		rType = 0;
+		vrLen = 841;
+		vrLoc = 2122;
+	};
+}
