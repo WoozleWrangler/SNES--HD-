@@ -14,7 +14,7 @@
 #import "SettingsViewController.h"
 #import "ControlPadConnectViewController.h"
 #import "ControlPadManager.h"
-
+#import "WebBrowserViewController.h"
 
 SNES4iPadAppDelegate *AppDelegate()
 {
@@ -26,7 +26,7 @@ SNES4iPadAppDelegate *AppDelegate()
 @synthesize window, splitViewController, romSelectionViewController, romDetailViewController, settingsViewController;
 @synthesize controlPadConnectViewController, controlPadManager;
 @synthesize romDirectoryPath, saveDirectoryPath, snapshotDirectoryPath;
-@synthesize emulationViewController;
+@synthesize emulationViewController, webViewController, webNavController;
 
 
 #pragma mark -
@@ -53,8 +53,15 @@ SNES4iPadAppDelegate *AppDelegate()
 	emulationViewController = [[EmulationViewController alloc] init];
 	emulationViewController.view.hidden = YES;
 	
+	// Make the web browser view controller
+	webViewController = [[WebBrowserViewController alloc] initWithNibName:@"WebBrowserViewController" bundle:nil];
 	
-    // Add the split view controller's view to the window and display.
+	// And put it in a navigation controller with back/forward buttons
+	webNavController = [[UINavigationController alloc] initWithRootViewController:webViewController];
+	webNavController.navigationBar.barStyle = UIBarStyleBlack;
+	
+    
+	// Add the split view controller's view to the window and display.
     [window addSubview:splitViewController.view];
 	
 	// Add the emulation view in its hidden state.

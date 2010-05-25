@@ -11,7 +11,7 @@ PACKAGE_FILE=SNES-HD.deb
 
 RESOURCE_DIR = Resources
 
-NIB_FILES = $(RESOURCE_DIR)/ControlPadConnectViewController.nib $(RESOURCE_DIR)/DetailView.nib $(RESOURCE_DIR)/MainWindow.nib $(RESOURCE_DIR)/SaveStateSelectionViewController.nib $(RESOURCE_DIR)/SettingsViewController.nib
+NIB_FILES = $(RESOURCE_DIR)/ControlPadConnectViewController.nib $(RESOURCE_DIR)/DetailView.nib $(RESOURCE_DIR)/MainWindow.nib $(RESOURCE_DIR)/SaveStateSelectionViewController.nib $(RESOURCE_DIR)/SettingsViewController.nib $(RESOURCE_DIR)/WebBrowserViewController.nib
 
 RESOURCES = $(wildcard $(RESOURCE_DIR)/*.png) $(NIB_FILES) $(RESOURCE_DIR)/snesadvance.dat
 
@@ -38,6 +38,8 @@ bundle: binary nibs
 package: bundle
 	mkdir -p $(PACKAGE_DIR)/Applications
 	mkdir -p $(PACKAGE_DIR)/DEBIAN
+	mkdir -p "$(PACKAGE_DIR)/var/mobile/Media/ROMs/SNES/ROMs Go Here.txt"
+	touch $(PACKAGE_DIR)/var/mobile/Media/ROMs/SNES/
 	cp -r $(BUNDLE) $(PACKAGE_DIR)/Applications
 	cp $(PACKAGE_CONTROL) $(PACKAGE_DIR)/DEBIAN/control
 	export COPYFILE_DISABLE 
@@ -49,3 +51,10 @@ package: bundle
 	
 transfer: bundle
 	scp -r $(BUNDLE) $(SSH_DESTINATION)
+	
+clean:
+	rm -rf $(BUNDLE)
+	rm -rf $(PACKAGE_DIR)
+	rm -rf $(NIB_FILES)
+	rm -f $(PACKAGE_FILE)
+	cd $(EMULATOR_SOURCE_DIR) && $(MAKE) clean

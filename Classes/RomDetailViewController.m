@@ -28,7 +28,7 @@
 @synthesize toolbar, splitViewPopoverController, buttonPopoverController, detailItem;
 @synthesize romTitleLabel, romTitleButton, romImageView, powerButton, loadButton, ejectButton;
 @synthesize playerOneButton, playerTwoButton, playerThreeButton, playerFourButton, multiTapView;
-@synthesize settingsButton, snapshotImageView;
+@synthesize settingsButton, searchButton, snapshotImageView;
 @synthesize saveStateSelectionViewController;
 
 - (void) viewDidLoad
@@ -106,7 +106,16 @@
 											permittedArrowDirections:UIPopoverArrowDirectionAny 
 															animated:YES];
 		}
-	} else if (sender == powerButton) {
+	} else if (sender == searchButton) {
+		if (!buttonPopoverController) {
+			buttonPopoverController = [[UIPopoverController alloc] initWithContentViewController:AppDelegate().webNavController];
+			buttonPopoverController.delegate = self;
+			[buttonPopoverController presentPopoverFromBarButtonItem:searchButton 
+											permittedArrowDirections:UIPopoverArrowDirectionAny 
+															animated:YES];
+		}
+	}
+	else if (sender == powerButton) {
 		NSLog(@"power button pressed");
 		[AppDelegate().emulationViewController startWithRom:(NSString *)detailItem];
 		[AppDelegate() showEmulator:YES];

@@ -15,7 +15,7 @@
 @class SettingsViewController;
 @class ControlPadConnectViewController;
 @class ControlPadManager;
-
+@class WebBrowserViewController;
 
 @interface SNES4iPadAppDelegate : NSObject <UIApplicationDelegate> {
     
@@ -29,6 +29,8 @@
 	SettingsViewController *settingsViewController;
 	ControlPadConnectViewController *controlPadConnectViewController;
 	ControlPadManager *controlPadManager;
+	WebBrowserViewController *webViewController;
+	UINavigationController *webNavController;
 	
 	NSString *romDirectoryPath, *saveDirectoryPath, *snapshotDirectoryPath;
 }
@@ -43,6 +45,8 @@
 @property (nonatomic, retain) ControlPadManager *controlPadManager;
 
 @property (nonatomic, retain) EmulationViewController *emulationViewController;
+@property (nonatomic, retain) WebBrowserViewController *webViewController;
+@property (nonatomic, retain) UINavigationController *webNavController;
 
 @property (nonatomic, readonly) NSString *romDirectoryPath;
 @property (nonatomic, readonly) NSString *saveDirectoryPath;

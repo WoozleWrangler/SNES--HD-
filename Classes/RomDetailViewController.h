@@ -21,6 +21,7 @@
 	UIImageView *romImageView;
 	UIBarButtonItem *romTitleButton;
 	UIBarButtonItem *settingsButton;
+	UIBarButtonItem *searchButton;
 
 	UIImageView *snapshotImageView;
 	UIButton *powerButton;
@@ -44,7 +45,7 @@
 @property (nonatomic, retain) IBOutlet UIImageView *romImageView;
 @property (nonatomic, retain) IBOutlet UIBarButtonItem *romTitleButton;
 @property (nonatomic, retain) IBOutlet UIBarButtonItem *settingsButton;
-
+@property (nonatomic, retain) IBOutlet UIBarButtonItem *searchButton;
 
 @property (nonatomic, retain) IBOutlet UIButton *powerButton;
 @property (nonatomic, retain) IBOutlet UIButton *loadButton;

@@ -37,6 +37,10 @@
 		CEA57F091198E5E8004DCD60 /* ControlPadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA57F081198E5E8004DCD60 /* ControlPadManager.m */; };
 		CEA57F0B1198E6F8004DCD60 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA57F0A1198E6F8004DCD60 /* GameKit.framework */; };
 		CEA57F111198ED61004DCD60 /* ControlPadConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA57F0F1198ED61004DCD60 /* ControlPadConnectViewController.m */; };
+		CEE8574411AAA81100784F8D /* WebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8574311AAA81100784F8D /* WebBrowserViewController.m */; };
+		CEE8575411AAD27900784F8D /* WebBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE8575311AAD27900784F8D /* WebBrowserViewController.xib */; };
+		CEE8575C11AADBE100784F8D /* ArrowBack.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE8575A11AADBE100784F8D /* ArrowBack.png */; };
+		CEE8575D11AADBE100784F8D /* ArrowForward.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE8575B11AADBE100784F8D /* ArrowForward.png */; };
 		CEEA77CE119F3F4400440258 /* ScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEA77CD119F3F4400440258 /* ScreenView.m */; };
 		CEEA77D1119F3F6100440258 /* ScreenLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEA77D0119F3F6100440258 /* ScreenLayer.m */; };
 /* End PBXBuildFile section */
@@ -83,6 +87,11 @@
 		CEA57F0A1198E6F8004DCD60 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		CEA57F0E1198ED61004DCD60 /* ControlPadConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlPadConnectViewController.h; sourceTree = "<group>"; };
 		CEA57F0F1198ED61004DCD60 /* ControlPadConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlPadConnectViewController.m; sourceTree = "<group>"; };
+		CEE8574211AAA81100784F8D /* WebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowserViewController.h; sourceTree = "<group>"; };
+		CEE8574311AAA81100784F8D /* WebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBrowserViewController.m; sourceTree = "<group>"; };
+		CEE8575311AAD27900784F8D /* WebBrowserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebBrowserViewController.xib; sourceTree = "<group>"; };
+		CEE8575A11AADBE100784F8D /* ArrowBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArrowBack.png; sourceTree = "<group>"; };
+		CEE8575B11AADBE100784F8D /* ArrowForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArrowForward.png; sourceTree = "<group>"; };
 		CEEA77CC119F3F4400440258 /* ScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenView.h; sourceTree = "<group>"; };
 		CEEA77CD119F3F4400440258 /* ScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenView.m; sourceTree = "<group>"; };
 		CEEA77CF119F3F6100440258 /* ScreenLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenLayer.h; sourceTree = "<group>"; };
@@ -129,6 +138,8 @@
 				CEEA77CD119F3F4400440258 /* ScreenView.m */,
 				CEEA77CF119F3F6100440258 /* ScreenLayer.h */,
 				CEEA77D0119F3F6100440258 /* ScreenLayer.m */,
+				CEE8574211AAA81100784F8D /* WebBrowserViewController.h */,
+				CEE8574311AAA81100784F8D /* WebBrowserViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -180,6 +191,8 @@
 		CE43A4CC119DFEF70007E399 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CEE8575A11AADBE100784F8D /* ArrowBack.png */,
+				CEE8575B11AADBE100784F8D /* ArrowForward.png */,
 				CE43A4CD119DFEF70007E399 /* cartridge.png */,
 				CE43A4CE119DFEF70007E399 /* console.png */,
 				CE43A4CF119DFEF70007E399 /* controlpad.png */,
@@ -194,6 +207,7 @@
 				CE43A4D8119DFEF70007E399 /* SaveStateSelectionViewController.xib */,
 				CE43A4D9119DFEF70007E399 /* SettingsViewController.xib */,
 				CE43A4DA119DFEF70007E399 /* snapshot-test.png */,
+				CEE8575311AAD27900784F8D /* WebBrowserViewController.xib */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -270,6 +284,9 @@
 				CE43A4E7119DFEF70007E399 /* SettingsViewController.xib in Resources */,
 				CE43A4E8119DFEF70007E399 /* snapshot-test.png in Resources */,
 				CE43A517119E087E0007E399 /* SNES4iPad-Info.plist in Resources */,
+				CEE8575411AAD27900784F8D /* WebBrowserViewController.xib in Resources */,
+				CEE8575C11AADBE100784F8D /* ArrowBack.png in Resources */,
+				CEE8575D11AADBE100784F8D /* ArrowForward.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +308,7 @@
 				CE43A4A5119DEA3C0007E399 /* EmulationViewController.m in Sources */,
 				CEEA77CE119F3F4400440258 /* ScreenView.m in Sources */,
 				CEEA77D1119F3F6100440258 /* ScreenLayer.m in Sources */,
+				CEE8574411AAA81100784F8D /* WebBrowserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,7 +25,7 @@ OBJS += sa1.o sdd1.o sdd1emu.o snapshot.o soundux.o spc700.o srtc.o tile.o unzip
 # Dave's minimal SDK
 #
 OBJS += iphone_sdk.o iphone_menutile.o iphone_highlightbar.o iphone_menu_header.o 
-OBJS += ../../main.o ../../Classes/EmulationViewController.o ../../Classes/ControlPadConnectViewController.o   ../../Classes/ControlPadManager.o ../../Classes/RomDetailViewController.o ../../Classes/RomSelectionViewController.o ../../Classes/ScreenView.o ../../Classes/ScreenLayer.o ../../Classes/SaveStateSelectionViewController.o ../../Classes/SettingsViewController.o ../../Classes/SNES4iPadAppDelegate.o
+OBJS += ../../main.o ../../Classes/EmulationViewController.o ../../Classes/ControlPadConnectViewController.o   ../../Classes/ControlPadManager.o ../../Classes/RomDetailViewController.o ../../Classes/RomSelectionViewController.o ../../Classes/ScreenView.o ../../Classes/ScreenLayer.o ../../Classes/SaveStateSelectionViewController.o ../../Classes/SettingsViewController.o ../../Classes/SNES4iPadAppDelegate.o ../../Classes/WebBrowserViewController.o
 
 
 #
@@ -104,4 +104,6 @@ pocketsnes: pocketsnesd
 	$(STRIP) pocketsnesd -o snes4iphone
 	
 tidy:
-	rm *.o ../../*.o ../../Classes/*.o
+	rm -f $(OBJS)
+	rm -f pocketsnesd
+	rm -f snes4iphone
