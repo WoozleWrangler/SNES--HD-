@@ -23,7 +23,7 @@ you'll need to add the filename, with the ".nib" extension to the NIB_FILES vari
 If you set the SSH_DESTINATION to something appropriate for your machine, you can
 do a "make transfer" and it will copy the bundle over to your machine.  Mine is set to
 root@ipad:/Applications because "ipad" is the name of my iPad on my local network. 
-If you set it to the hostname or ip address of your machine, it makes testing a lot easier.
+If you set it to the hostname or ip address of your iPad, it makes testing a lot easier.
 Make sure you keep the ":/Applications" part.  If you don't want scp to prompt you for your
 iPad's password every time, add your public key to the iPad's root users' .ssh/authorized_keys file.
 There's a good tutorial on how to do that here: http://www.petefreitag.com/item/532.cfm
