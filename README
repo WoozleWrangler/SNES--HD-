@@ -8,6 +8,28 @@ Some features include:
 
 SNES (HD) is based on ZodTTD's port of Snes9x called snes4iphone.  I have altered most of the Objective C code to suit my tastes and the differences between platforms, and have redesigned the user interface.  Zod's port can be accessed at http://github.com/zodttd/snes4iphone and is available in ad-supported and commercial versions from the Cydia store.
 
+*** About building the project ***
+Please note that the Xcode project DOES NOT WORK!  It's included because I like using the
+Xcode IDE for objective C code.
+You have to use the Makefile in the top level of the source directory.  
+A simple "make" will result in a ControlPad.app directory which you can ssh over
+to your iPad.  Note that you must have ldid installed on your system for the fake
+codesigning.  If ldid is not in /usr/local/bin, you'll also need to change the LDID
+variable in the makefile.  
+
+Also, if you set the SSH_DESTINATION to something appropriate for your machine, you can
+do a "make transfer" and it will copy the bundle over to your machine.  Mine is set to
+root@ipad:/Applications because "ipad" is the name of my iPad on my local network. 
+If you set it to the hostname or ip address of your machine, it makes testing a lot easier.
+
+Finally, I just added a file called "logwrapper.sh" to the Resources directory.  This will
+be copied over to the app bundle, and if you edit SNES4iPad-Info.plist and change the value
+for CFBundleExecutable from "SNES-HD" to "logwrapper.sh", when you run the app all output from
+stdout and stderr are redirected to "/tmp/snes-hd.log".  This is very useful when debugging, as
+there's no way I know of to attach a GDB session to a jailbreak app.  Just run "tail -f /tmp/snes-hd.log"
+in an ssh session.
+
+
 SNES (HD) is free for non-commercial use, in keeping with the original Snes9x licence, reproduced below:
 
 /*

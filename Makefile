@@ -13,7 +13,7 @@ RESOURCE_DIR = Resources
 
 NIB_FILES = $(RESOURCE_DIR)/ControlPadConnectViewController.nib $(RESOURCE_DIR)/DetailView.nib $(RESOURCE_DIR)/MainWindow.nib $(RESOURCE_DIR)/SaveStateSelectionViewController.nib $(RESOURCE_DIR)/SettingsViewController.nib $(RESOURCE_DIR)/WebBrowserViewController.nib
 
-RESOURCES = $(wildcard $(RESOURCE_DIR)/*.png) $(NIB_FILES) $(RESOURCE_DIR)/snesadvance.dat
+RESOURCES = $(wildcard $(RESOURCE_DIR)/*.png) $(wildcard $(RESOURCE_DIR)/*.sh) $(NIB_FILES) $(RESOURCE_DIR)/snesadvance.dat
 
 IBTOOL = ibtool
 LDID = /usr/local/bin/ldid
