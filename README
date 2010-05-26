@@ -10,17 +10,23 @@ SNES (HD) is based on ZodTTD's port of Snes9x called snes4iphone.  I have altere
 
 *** About building the project ***
 Please note that the Xcode project DOES NOT WORK!  It's included because I like using the
-Xcode IDE for objective C code.
+Xcode IDE for objective C code.  To edit the code for the emulator itself (contained in src/snes4iphone),
+you'll need another text editor (I use TextMate). 
 You have to use the Makefile in the top level of the source directory.  
 A simple "make" will result in a ControlPad.app directory which you can ssh over
 to your iPad.  Note that you must have ldid installed on your system for the fake
 codesigning.  If ldid is not in /usr/local/bin, you'll also need to change the LDID
-variable in the makefile.  
+variable in the makefile.  Also please note that if you add any classes, you'll have to
+add them to the OBJS variable in the Makefile.  Likewise with Interface Builder .xib files -
+you'll need to add the filename, with the ".nib" extension to the NIB_FILES variable.
 
-Also, if you set the SSH_DESTINATION to something appropriate for your machine, you can
+If you set the SSH_DESTINATION to something appropriate for your machine, you can
 do a "make transfer" and it will copy the bundle over to your machine.  Mine is set to
 root@ipad:/Applications because "ipad" is the name of my iPad on my local network. 
 If you set it to the hostname or ip address of your machine, it makes testing a lot easier.
+Make sure you keep the ":/Applications" part.
+
+If you want to make a .deb package, type "make package" and it will create SNES-HD.deb  
 
 Finally, I just added a file called "logwrapper.sh" to the Resources directory.  This will
 be copied over to the app bundle, and if you edit SNES4iPad-Info.plist and change the value
